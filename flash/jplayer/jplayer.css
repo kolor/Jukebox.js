@@ -1,0 +1,32 @@
+div#jp {height:0px; width:0px; visibility: hidden;}
+div.jp-player {font-size:1em;	font-family:Verdana, Arial, sans-serif;	line-height:1.6;	color: #666; margin-bottom: 10px;}
+#jp-interface {background: url("player.png") no-repeat scroll 0 0 transparent; width: 597px; height: 32px; margin:0 auto; position:relative; padding: 5px;}
+
+#jp-interface ul.jp-controls {list-style-type:none; padding:0; margin: 0;}
+#jp-interface ul.jp-controls li {position: absolute;}
+#jp-interface ul.jp-controls a {display: block;	position: absolute;	overflow:hidden; text-indent:-9999px;}
+
+a.jp-play,a.jp-pause,a.jp-stop,a.jp-next {width: 30px; height:30px; top: 2px;}
+a.jp-play {background: url("play.png") no-repeat; left: 5px;}
+a.jp-pause {background: url("pause.png") no-repeat; left: 5px;}
+a.jp-stop {background: url("stop.png") no-repeat; left: 40px;}
+
+a.jp-next {background: url("next.png") no-repeat; left: 75px;}
+
+a.jp-mute, a.jp-unmute {width:32px;	height:32px; left:487px;}
+a.jp-mute {background: url(mute.png) no-repeat;	}
+a.jp-unmute {background: url(unmute.png) no-repeat;	}
+
+a.jp-play:hover, a.jp-pause:hover, a.jp-stop:hover, a.jp-next:hover {-webkit-transform: scale(1.1);}
+
+div.jp-volume-bar {background: url(volumebar.png) no-repeat; position: absolute; overflow:hidden; top:9px; width:70px; height:25px; cursor:pointer; left:530px;}
+div.jp-volume-bar-value {background: url(volume.png) no-repeat;	width:0px;	height:25px;}
+
+
+div.jp-progress {position: absolute; overflow:hidden; top:12px; width:240px; height:20px; left:185px;}
+div.jp-seek-bar {background: url(loading.png) no-repeat; width:0px; height:22px; cursor: pointer;}
+div.jp-play-bar {background: url(playing.png) no-repeat; width:0px; height:22px;}
+
+div.jp-current-time, div.jp-duration {position: absolute; top:5px;	font-size:17px;font-style:oblique; color: #b1bb46; font-family: Georgia;}
+div.jp-current-time {left: 128px;}
+div.jp-duration {text-align: right; left:435px;}
