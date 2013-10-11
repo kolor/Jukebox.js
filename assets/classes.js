@@ -346,7 +346,6 @@ DL = {
 		
 		var selecta = [];
 		for (key in data.response) {
-			i++;
 			var d = data.response[key];
 			if (typeof(d.title) == 'undefined') continue
 			if (d.duration != dur) continue;	

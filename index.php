@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="assets/widgets.css">
 	<link rel="shortcut icon" href="assets/img/favicon.png"/> 
 	<title>Music Box</title>
-	<script src="http://cdn.airy.me/jquery.min.js"></script>
+	<script src="http://cdn.airy.me/jquery.js"></script>
 	<script src="http://cdn.airy.me/jgrowl.js"></script>
 	<script src="http://cdn.airy.me/tinyscrollbar.js"></script>
 	<script src="http://vkontakte.ru/js/api/openapi.js"></script>

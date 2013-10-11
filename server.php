@@ -5,7 +5,7 @@ call_user_func($_GET['do']);
 function saveList() {
 	$str = serialize($_POST);
 	$name = $_POST['list_name'];
-	$handle = fopen('/home/kolor/public_html/apps/jukebox/lists/'.$name,"w");
+	$handle = fopen('/var/www/apps/jukebox/lists/'.$name,"w");
 	if ($handle) {
 		fwrite($handle, $str);
 		echo 'OK';
@@ -13,7 +13,7 @@ function saveList() {
 }
 
 function getLists() {
-	$lists = scandir('/home/kolor/public_html/apps/jukebox/lists/');
+	$lists = scandir('/var/www/apps/jukebox/lists/');
 	echo json_encode($lists);
 }
 
