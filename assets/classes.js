@@ -362,7 +362,7 @@ DL = {
 }
 
 LAST = {
-	url: 'http://ws.audioscrobbler.com/2.0/?api_key=b25b959554ed76058ac220b7b2e0a026&format=json&',
+	url: 'http://ws.audioscrobbler.com/2.0/?api_key=57b632065bbd395d1602d05a9ffc3d64&format=json&',
 	found: [],
 	query: '',
 	
