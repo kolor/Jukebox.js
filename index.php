@@ -2,17 +2,17 @@
 <html>
 <head>
 	<meta name="google-site-verification" content="KQXrCf2Y3jmhqDlbH0xQ7MK6xoI5y80qnMAtNsR1MyY" />
-	<link rel="stylesheet" href="http://cdn.apps.dj/reset.css">
-	<link rel="stylesheet" href="http://cdn.apps.dj/jgrowl.css">
+	<link rel="stylesheet" href="http://cdn.airy.ga/reset.css">
+	<link rel="stylesheet" href="http://cdn.airy.ga/jgrowl.css">
 	<link rel="stylesheet" href="assets/jplayer/jplayer.css">
 	<link rel="stylesheet" href="assets/ui/ui.css">
 	<link rel="stylesheet" href="assets/structure.css">
 	<link rel="stylesheet" href="assets/widgets.css">
 	<link rel="shortcut icon" href="assets/img/favicon.png"/> 
 	<title>Music Box</title>
-	<script src="http://cdn.apps.dj/jquery.js"></script>
-	<script src="http://cdn.apps.dj/jgrowl.js"></script>
-	<script src="http://cdn.apps.dj/tinyscrollbar.js"></script>
+	<script src="http://cdn.airy.ga/jquery.js"></script>
+	<script src="http://cdn.airy.ga/jgrowl.js"></script>
+	<script src="http://cdn.airy.ga/tinyscrollbar.js"></script>
 	<script src="http://vkontakte.ru/js/api/openapi.js"></script>
 	<script src="assets/php.js"></script>
 	<script src="assets/jplayer/jplayer.js"></script>
