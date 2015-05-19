@@ -93,3 +93,6 @@ body {background: url(img/body.png) no-repeat center top #1b1b1b; font-size: 13p
 
 #scrollbar1 .disable { display: none; }
 #scrollbar2 .disable { display: none; }
+
+
+#loadServer {height: 300px;}
