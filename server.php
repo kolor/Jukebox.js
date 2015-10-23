@@ -5,15 +5,17 @@ call_user_func($_GET['do']);
 function saveList() {
 	$str = serialize($_POST);
 	$name = $_POST['list_name'];
-	$handle = fopen('/home/tom/apps/box/lists/'.$name,"w");
+	$handle = fopen('/var/www/apps/jukbox/lists/'.$name,"w");
 	if ($handle) {
 		fwrite($handle, $str);
 		echo 'OK';
+	} else {
+		echo 'FAIL';
 	}
 }
 
 function getLists() {
-	$lists = scandir('/home/tom/apps/box/lists/');
+	$lists = scandir('/var/www/apps/jukbox/lists/');
 	echo json_encode($lists);
 }
 
